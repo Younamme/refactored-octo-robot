@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Таблицы
+		</title>
+		<meta charset="utf-8">
+		<style>
+			td , th {border: 2px solid black;
+			}
+
+			table.tb1 {border: 1px solid black; border-collapse: collapse; width: 65%; margin: auto;}
+
+			table.tb2 td {border: 1px solid gray;}
+			table.tb2 {border: 1px solid gray; border-collapse: collapse; width: 65%; margin: auto;}
+
+			table.td1 {color: #1571E9; font-style: inherit; font-size: 250%; }
+		</style>
+	</head>
+	<body>
+		<h1 style = "color: #1571E9;"><strong>Таблицы </strong></h1>
+
+	<hr style = "border-color: green; background: green; height: 10px; width: 41%">
+
+<a href="index v2.html" target = "_blank">>>Главная<<</a>
+
+	<table class ="tb1">
+		<caption>
+			Заголовок
+		</caption><tr>
+			<th>Ячеечка один</th>
+			<th>Ячеечка два</th>
+			<th>Ячеечка три</th>
+		</tr>
+		<tr>
+			<td >Ячеечка четыре</td>
+			<td>Ячеечка пять</td>
+			<td>Ячеечка шесть</td>
+		</tr>
+
+	</table>
+
+	<table class = "tb2">
+
+		<tr>
+			<td>Ячеечка один</td>
+			<td>Ячеечка два</td>
+			<td>Ячеечка три</td>
+		</tr>
+		<tr>
+			<td >Ячеечка четыре</td>
+			<td>Ячеечка пять</td>
+			<td>Ячеечка шесть</td>
+		</tr>
+
+	</table>
+
+	<table class = "tb1 td1"; style="color: #1571E9; font-style: inherit">
+		<tr>
+			<td colspan="5"> 1 </td>
+		</tr>
+		<tr>
+			<td rowspan="3"> 2 </td>
+			<td colspan="2"> 3 </td>
+			<td colspan="2"> 4 </td>
+		</tr>
+		<tr>
+			<td rowspan="2"> 5 </td>
+			<td> 6 </td>
+			<td> 7 </td>
+			<td> 8 </td>
+		</tr>
+		<tr>
+			<td colspan="3"> 9 </td>
+		</tr>		
+	</table>
+
+<a href="index.html#title">Главная</a>
+
+
+	</body>	
+</html>

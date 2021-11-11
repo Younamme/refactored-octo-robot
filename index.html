@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Мой сайт
+		</title>
+		<meta charset="utf-8">
+		<style>
+			td , th {border: 2px solid black;
+			}
+
+			table.tb1 {border: 1px solid black; border-collapse: collapse; width: 65%; margin: auto;}
+
+			table.tb2 td {border: 1px solid gray;}
+			table.tb2 {border: 1px solid gray; border-collapse: collapse; width: 65%; margin: auto;}
+
+			table.td1 {color: #1571E9; font-style: inherit; font-size: 250%; }
+
+			// Так как это код на CSS, комментируем так
+
+			/* Или так, если
+			комментарий многострочный */
+
+
+		</style>
+		
+	</head>
+	<body>
+		<a name="title"></a>
+		<h1 style = "color: #1571E9; font-style: inherit">Заголовок <span style = "color: black;">1 </span> level</h1>
+		<h1 style = "color: #E99415; font-style: italic">Заголовок <span style = "color: black;">2 </span> level</h1>
+		<h3 style = "color: #910606;">Заголовок <span style = "color: black;">3 </span> level</h3>
+		<h4 style = "color: #199415; font-style: normal">Заголовок <span style = "color: black;">4 </span> level</h4>
+		<h5 style = "color: #626262; font-style: oblique">Заголовок <span style = "color: black;">5 </span> level</h5>
+		<h6 style = "color: #FA8A8A;">Заголовок <span style = "color: black;">6 </span>level</h6>
+		<a href="#z1">Таблицы</a>
+	<hr style = "border-color: green; background: green; height: 10px; width: 41%">
+	<p >Что-то очень очень очень очень очень очень <br>очень очень очень очень очень очень очень умное </p>
+	<hr>
+	<p style = "font-size: 700%">Что-то не очень умное </p>
+	<hr>
+<!--Так пишется комментарий в HTML-->
+<!--Списки-->
+
+	<ol><!--Нумерованный-->
+		<li>
+			один
+		</li>
+		<li>
+			два
+			<ul><!--Маркированный-->
+				<li>
+					два с половиной
+				</li>
+				<li>
+					почти три
+				</li>
+				<li>
+					вот вот и три
+				</li>
+			</ul>
+		</li>	
+		<li>
+			три
+		</li>
+		<li>
+			четыре
+		</li>
+		<li>
+			пять
+		</li>
+		<li>
+			шесть
+		</li>
+		<li>
+			семь
+		</li>
+	</ol>
+	<hr>
+	<dl><!--Определений-->
+		<dt>
+			HTML
+		</dt>
+		<dd>
+			Это стандартизированный язык разметки документов для просмотра веб-страниц в браухере.
+		</dd>
+	</dl>
+	<dl>
+		<dt>
+			CSS
+		</dt>
+		<dd>
+			Это формальный язык описания внешнего вида документа, написанного с использованием языка разметки.
+		</dd>
+	</dl>
+
+	<table class ="tb1">
+		<caption>
+			Заголовок
+		</caption><tr>
+			<th>Ячеечка один</th>
+			<th>Ячеечка два</th>
+			<th>Ячеечка три</th>
+		</tr>
+		<tr>
+			<td >Ячеечка четыре</td>
+			<td>Ячеечка пять</td>
+			<td>Ячеечка шесть</td>
+		</tr>
+<a name="z1"></a>
+	</table>
+
+	<table class = "tb2">
+
+		<tr>
+			<td>Ячеечка один</td>
+			<td>Ячеечка два</td>
+			<td>Ячеечка три</td>
+		</tr>
+		<tr>
+			<td >Ячеечка четыре</td>
+			<td>Ячеечка пять</td>
+			<td>Ячеечка шесть</td>
+		</tr>
+
+	</table>
+
+	<table class = "tb1 td1"; style="color: #1571E9; font-style: inherit">
+		<tr>
+			<td colspan="5"> 1 </td>
+		</tr>
+		<tr>
+			<td rowspan="3"> 2 </td>
+			<td colspan="2"> 3 </td>
+			<td colspan="2"> 4 </td>
+		</tr>
+		<tr>
+			<td rowspan="2"> 5 </td>
+			<td> 6 </td>
+			<td> 7 </td>
+			<td> 8 </td>
+		</tr>
+		<tr>
+			<td colspan="3"> 9 </td>
+		</tr>		
+	</table>
+
+	<img src = "https://www.cossa.ru/upload/iblock/d55/tyz.jpg" alt = "Mafia" style = "display: block; margin: auto ;" >
+
+	<img src = "img/755254327889803.png" alt = "Делаем умный вид" style  = "float: right; height: 400px;">
+
+	<marquee scrollamount = "3000"><img src = "img/images.jpg"></marquee>
+
+	<marquee scrollamount = "300">Вжух, я гонщег</marquee>
+
+<a href="https://www.google.ru/" target = "_blank">тут есть всё</a>
+<a href="https://www.google.ru/" target = "_blank"><img src="https://www.google.ru/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+<a href="table.html" target = "_blank">Таблицы</a>
+<a href="test/test2/test.html" target = "_blank">Тest</a>
+<a href="#title">В начало</a>
+	</body>	
+</html>
